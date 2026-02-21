@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GIS Project | Spatial Distribution - Assiut Governorate</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f6f8;
+  color: #333;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px;
+}
+
+/* HEADER */
+.header {
+  background: linear-gradient(135deg, #2c7be5, #004e92);
+  color: white;
+  padding: 50px 40px;
+  border-radius: 15px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.header p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* SECTIONS */
+.section {
+  background: white;
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+  border-left: 5px solid #2c7be5;
+  padding-left: 10px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+  gap: 20px;
+}
+
+/* IMAGE */
+.project-img {
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+/* TAGS */
+.tag {
+  display: inline-block;
+  background: #2c7be5;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  margin: 5px 5px 0 0;
+  font-size: 14px;
+}
+
+/* BACK BUTTON */
+.back {
+  margin-top: 30px;
+  display: inline-block;
+  text-decoration: none;
+  color: #2c7be5;
+  font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1>Spatial Distribution Analysis</h1>
+    <p>
+      Villages, Centers, Road Network, Public Services & Nile Islands  
+      <br>Assiut Governorate – Egypt
+    </p>
+  </div>
+
+  <!-- OVERVIEW -->
+  <div class="section">
+    <h2>Project Overview</h2>
+    <p>
+      This project analyzes the spatial distribution of villages and administrative centers
+      in Assiut Governorate, in relation to road networks, public services, and Nile River islands.
+      The objective is to understand spatial patterns, accessibility, and service coverage
+      to support regional and urban planning.
+    </p>
+  </div>
+
+  <!-- DATA & TOOLS -->
+  <div class="section grid">
+
+    <div>
+      <h2>Data Used</h2>
+      <ul>
+        <li>Administrative Boundaries (Governorate, Centers, Villages)</li>
+        <li>Road Network (Primary & Secondary Roads)</li>
+        <li>Public Services (Health, Education, Government Facilities)</li>
+        <li>Nile River and Nile Islands</li>
+        <li>Satellite Imagery</li>
+      </ul>
+    </div>
+
+    <div>
+      <h2>Tools & Software</h2>
+      <span class="tag">ArcGIS Pro</span>
+      <span class="tag">Spatial Analyst</span>
+      <span class="tag">QGIS</span>
+      <span class="tag">Remote Sensing</span>
+    </div>
+
+  </div>
+
+  <!-- DATA SOURCES -->
+  <div class="section">
+    <h2>Data Sources</h2>
+    <ul>
+      <li>Egyptian General Authority for Survey (EGAS)</li>
+      <li>Central Agency for Public Mobilization and Statistics (CAPMAS)</li>
+      <li>OpenStreetMap (Roads & Services)</li>
+      <li>USGS Earth Explorer (Satellite Imagery)</li>
+      <li>NASA Earth Data (Remote Sensing Data)</li>
+      <li>Humanitarian Data Exchange (HDX)</li>
+    </ul>
+  </div>
+
+  <!-- METHODOLOGY -->
+  <div class="section">
+    <h2>Methodology</h2>
+    <ul>
+      <li>Collecting and preparing spatial datasets from multiple sources</li>
+      <li>Georeferencing satellite imagery</li>
+      <li>Digitizing villages, centers, roads, services, and Nile islands</li>
+      <li>Spatial distribution and proximity analysis</li>
+      <li>Overlay analysis between services, roads, and settlements</li>
+      <li>Cartographic map design and visualization</li>
+    </ul>
+  </div>
+
+  <!-- FINAL MAPS -->
+  <div class="section">
+    <h2>Final Maps</h2>
+
+    <img src="شبكة-الطرق.jpg" class="project-img"
+
+ alt="Assiut Spatial Distribution Map">
+
+    <img src="الخدمات-العامه.jpg" class="project-img"
+
+ alt="Roads and Services Map">
+<img src="التقسيم الاداري.jpg" class="project-img"
+alt="Roads and Services Map">
+<img src="جزر.jpg" class="project-img"
+alt="Roads and Services Map">
+<img src="احياء.jpg" class="project-img"
+  </div>
+
+  <!-- RESULTS -->
+  <div class="section">
+    <h2>Results & Conclusion</h2>
+    <p>
+      The results demonstrate the spatial distribution patterns of villages and administrative
+      centers in Assiut Governorate and their connectivity through the road network.
+      The analysis highlights service coverage gaps and the spatial importance of Nile islands,
+      providing valuable insights for infrastructure development and service planning.
+    </p>
+  </div>
+
+   <!-- BACK -->
+ <a href="../index.html" class="back">← Back to Home</a>
+
+</div>
+
+</body>
+</html>
